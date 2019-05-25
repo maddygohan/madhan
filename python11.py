@@ -1,3 +1,3 @@
-N=int(input(""))
-K=int(input(""))
-print(N**K)
+a=int(input(""))
+b=int(input(""))
+print(a**b)
