@@ -5,8 +5,6 @@ def factorial(n):
         return n *  factorial(n-1)
 n=int(input(""))
 if(n==0):
-    print("factorial doesn't having negative number")
-elif(n==0):
-    print("1")
+    print(1)
 else:
     print("",factorial(n))
