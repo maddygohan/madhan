@@ -1,3 +1,4 @@
 N=int(input(""))
 K=int(input(""))
-print(pow(N, K))
+power=(pow(N,K))
+print(power)
