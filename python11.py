@@ -1,4 +1,6 @@
-N=int(input(""))
-K=int(input(""))
-power=(pow(N,K))
-print(power)
+def power(num, power): 
+    for x in range(power):
+        number = num * num
+    return number
+
+print(power(3, 4))
