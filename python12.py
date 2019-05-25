@@ -2,8 +2,8 @@ n=int(input(""))
 t=n
 rev=0
 while(n>0):
-    d=n%10
-    rev=rev*10+d
+    digit=n%10
+    rev=rev*10+digit
     n=n//10
 if(t==rev):
     print("Yes")
