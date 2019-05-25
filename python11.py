@@ -1,3 +1,3 @@
-a=int(input(""))
-b=int(input(""))
-print(a**b)
+N=int(input(""))
+K=int(input(""))
+print(pow(N, K))
