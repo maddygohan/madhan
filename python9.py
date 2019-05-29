@@ -6,4 +6,3 @@ for j in range(b):
     s=s+li[j]
 print(s)
 
-
