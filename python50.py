@@ -1,0 +1,10 @@
+n=int(input(""))
+count=0
+s=1
+while(s<n):
+    count+=1
+    s=2**count
+if(s==n):
+    print("yes")
+else:
+    print("no")
