@@ -1,3 +1,3 @@
-n=input()
-for i in n:
-    print(i,end=" ")
+num=input()
+for ite in num:
+    print(ite,end=" ") 
