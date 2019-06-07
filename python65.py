@@ -1,2 +1,2 @@
-S=str(input())
-print(S)
+St=str(input())
+print(St)
