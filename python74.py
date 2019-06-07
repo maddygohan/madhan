@@ -1,3 +1,4 @@
-N=float(input())
-N=round(N)
-print(N)
+import math
+de=float(input())
+print(math.ceil(de))
+
