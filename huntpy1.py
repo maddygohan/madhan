@@ -8,4 +8,7 @@ for i in arr:
                 arr2.append(i)
                 break
 arr2.sort()
-{print(x,end=" ") for x in arr2}
+if len(arr2)==0:
+    print("unique")
+else:
+    {print(x,end=" ") for x in arr2}
